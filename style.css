@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #dff6ff;
+}
+
+.arena {
+  width: 90%;
+  max-width: 600px;
+  height: 450px;
+  margin: 30px auto;
+  background: linear-gradient(#87ceeb, #7ac943);
+  border: 5px solid #333;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  z-index: 3;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.pokebola {
+  position: absolute;
+  font-size: 150px;
+  left: 200px;
+  top: 150px;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+img {
+  position: absolute;
+  width: 180px;
+  left: 210px;
+  top: 170px;
+  z-index: 2;
+}
+
+.mensagem {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 3;
+}
